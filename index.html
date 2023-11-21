@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    
+    <script src="p5.play.js"></script>
+    <script
+    src="https://www.gstatic.com/firebasejs/7.15.1/firebase-app.js"></script>
+    <!--Add your Firsebase Config here below. -->
+    <script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-database.js"></script>
+    <script>
+      const firebaseConfig = {
+  apiKey: "AIzaSyCP1T2_lyPJMjv2ZoBff6yW2Fr6thHcR-o",
+  authDomain: "multiplayer-game-232fa.firebaseapp.com",
+  databaseURL: "https://multiplayer-game-232fa-default-rtdb.firebaseio.com",
+  projectId: "multiplayer-game-232fa",
+  storageBucket: "multiplayer-game-232fa.appspot.com",
+  messagingSenderId: "1047510647749",
+  appId: "1:1047510647749:web:e0f797889537b1cbe541ac"
+};
+firebase.initializeApp (firebaseConfig)
+
+      </script>
+
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <meta charset="utf-8">
+
+  </head>
+  <body>
+      <script src="sketch.js"></script>
+    </body>
+</html>
